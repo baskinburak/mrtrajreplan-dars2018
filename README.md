@@ -4,6 +4,8 @@
 
 ```
 sudo apt install libeigen3-dev
+git submodule init
+git submodule update --recursive
 mkdir build
 cd build
 cmake ..
